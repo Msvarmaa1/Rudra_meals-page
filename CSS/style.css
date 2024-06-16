@@ -52,17 +52,31 @@ html{
     font-size: 1.3rem;
 }
 
-#navbar ul li a {
+/* #navbar ul li a {
+    display: block;
+    padding: 3px 22px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+} */
+.item{
     display: block;
     padding: 3px 22px;
     border-radius: 12px;
     text-decoration: none;
     color: white;
 }
-
 #navbar ul li a:hover {
     color: black;
     background-color: white;
+}
+.item2{
+    display: flex;
+    justify-content: flex-end;
+    padding: 3px 22px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
 }
 
 /* Home page  */
@@ -140,7 +154,7 @@ html{
 }
 
 #services .box {
-    border: 2px solid black;
+    border: 2px solid black;    
     padding: 20px;
     margin: 5px 20px;
     border-radius: 20px;
@@ -148,7 +162,7 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     /* box-shadow: 3px 3px 9px 0px black; */
     /* position: relative;
     transform: all 1s ease-in-out .3s;
