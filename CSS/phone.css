@@ -1,10 +1,17 @@
 /* Navigation section  */
-#navbar{
+/* #navbar{
 
+} */
+.item2{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 22px;
+    color: white;
+    width: 25%;
 }
 /* Home section  */
 #home{
-    height: 504px;
+    height: 368px;
     padding: 3px 125px;
 }
 #home::before{
